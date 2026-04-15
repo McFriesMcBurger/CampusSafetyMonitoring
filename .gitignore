@@ -1,0 +1,7 @@
+runs/
+*.pt
+*.pth
+dataset/images/
+dataset/labels/
+__pycache__/
+*.ipynb_checkpoints
