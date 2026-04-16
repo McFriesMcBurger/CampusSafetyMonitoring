@@ -1,7 +1,2 @@
-runs/
-*.pt
-*.pth
-dataset/images/
-dataset/labels/
-__pycache__/
-*.ipynb_checkpoints
+# Ignore images (VERY IMPORTANT)
+datasets/Poly/datasets/images

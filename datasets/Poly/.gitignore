@@ -1,0 +1,10 @@
+# Ignore images
+datasets/images/
+
+# Ignore model outputs
+runs/
+*.pt
+
+# Python cache
+__pycache__/
+*.pyc
