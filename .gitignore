@@ -1,2 +1,9 @@
-# Ignore images (VERY IMPORTANT)
-datasets/Poly/datasets/images
+datasets/images
+runs/
+evaluation/
+*.pt
+*.cache
+*.npy
+__pycache__/
+*.log
+*.pyc
