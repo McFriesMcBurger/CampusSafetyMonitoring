@@ -202,19 +202,3 @@ evaluation/
 *.cache
 *.npy
 ```
-
-These are generated during training and evaluation.
-
----
-
-## Summary
-
-This repository provides a complete pipeline for object detection using YOLOv8:
-
-* dataset preparation
-* model training
-* evaluation and metrics
-* inference for testing and demonstration
-
-It is intended for experimentation, coursework, or simple deployment scenarios.
-
