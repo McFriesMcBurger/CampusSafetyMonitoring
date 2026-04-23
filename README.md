@@ -67,6 +67,11 @@ import torch
 print(torch.cuda.is_available())
 ```
 
+Utilize the link below to download the ZIP file containing the images dataset:
+https://drive.google.com/file/d/1iqXGUf96_7K3h79pqZloIQ7RdyPr5BPn/view
+
+Insert the **images** folder into the same directory as the **labels** folder.
+
 ---
 
 ## Workflow
