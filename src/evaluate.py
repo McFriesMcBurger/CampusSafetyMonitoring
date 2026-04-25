@@ -2,34 +2,36 @@ from utils import load_model
 from config import DATA_CONFIG
 import os
 
-def main():
-    model = load_model()
-
+def evaluate_split(model, split_name):
     metrics = model.val(
         data=DATA_CONFIG,
-        split="val",
+        split=split_name,
         save_json=True,
-        name="evaluation"
+        name=f"evaluation_{split_name}"   # separate folders
     )
 
-    output_dir = metrics.save_dir
-
-    print("\n===== EVALUATION =====")
+    print(f"\n===== {split_name.upper()} METRICS =====")
     print(f"P: {metrics.box.mp:.4f}")
     print(f"R: {metrics.box.mr:.4f}")
     print(f"mAP50: {metrics.box.map50:.4f}")
     print(f"mAP50-95: {metrics.box.map:.4f}")
 
-    metrics_path = os.path.join(output_dir, "metrics.txt")
-
-    with open(metrics_path, "w") as f:
-        f.write("Evaluation Metrics\n")
+    output_dir = metrics.save_dir
+    with open(os.path.join(output_dir, "metrics.txt"), "w") as f:
+        f.write(f"{split_name.upper()} METRICS\n")
         f.write(f"P: {metrics.box.mp:.4f}\n")
         f.write(f"R: {metrics.box.mr:.4f}\n")
         f.write(f"mAP50: {metrics.box.map50:.4f}\n")
         f.write(f"mAP50-95: {metrics.box.map:.4f}\n")
 
-    print(f"\nSaved everything to: {output_dir}")
+    return metrics
+
+
+def main():
+    model = load_model()
+
+    val_metrics = evaluate_split(model, "val")
+    test_metrics = evaluate_split(model, "test")
 
 
 if __name__ == "__main__":
