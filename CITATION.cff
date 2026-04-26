@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "CampusSafetyMonitoring"
+message: "Project submitted for the Computer Vision Object Detection project for BCS 407"
+authors:
+  - family-names: "Sengco"
+    given-names: "Ralph Bernard"
+  - family-names: "Cadelina"
+    given-names: "Kjeldahl Claisen"
+  - family-names: "Alrajei"
+    given-names: "Rami"
+  - family-names: "Tolero"
+    given-names: "Dean Francis"
+version: "1.0.0"
+date-released: 2026-04-26
+url: "https://github.com/McFriesMcBurger/CampusSafetyMonitoring"
+keywords:
+  - Computer Vision
+  - Campus Safety
+  - Object Detection
