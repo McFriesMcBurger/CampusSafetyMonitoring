@@ -1,0 +1,26 @@
+Dataset Split Report
+======================================================================
+
+Total images   : 5192
+Random seed    : 42
+
+  train  :  3634 images  (70.0%)
+  val    :  1038 images  (20.0%)
+  test   :   520 images  (10.0%)
+
+
+Images per class per split  (one count per image, even with multiple instances)
+----------------------------------------------------------------------
+  Class                         train       val      test     Total
+----------------------------------------------------------------------
+  [0] Fire_Extinguisher           740       203       110      1053
+  [1] Fire_Blanket                135        52        30       217
+  [2] Alarm_Activator             202        52        19       273
+  [3] Alarms                      322       114        52       488
+  [4] Smoke_Detector              388        95        53       536
+  [5] AED                         661       193        97       951
+  [6] Fire_Exit                   483       148        85       716
+  [7] Wet_Floor_Sign              655       170        88       913
+  [8] Safety_Signs                368       109        46       523
+----------------------------------------------------------------------
+  Total                          3954      1136       580      5670
