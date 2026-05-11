@@ -4,14 +4,16 @@ train: images/train
 val: images/val
 test: images/test
 
-nc: 7
 
+nc: 9
 names:
-  0: fire_extinguisher
-  1: fire_blanket
-  2: alarm_activator
-  3: alarm_siren
-  4: white_domes
-  5: defibrillator
-  6: safety_sign
+  0: Fire_Extinguisher
+  1: Fire_Blanket
+  2: Alarm_Activator
+  3: Alarms
+  4: Smoke_Detector
+  5: AED
+  6: Fire_Exit
+  7: Wet_Floor_Sign
+  8: Safety_Signs
 
