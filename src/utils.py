@@ -1,6 +1,6 @@
 import os
 from ultralytics import YOLO
-from config import *
+from baseline_config import *
 
 def load_model(path=MODEL_PATH):
     return YOLO(path)

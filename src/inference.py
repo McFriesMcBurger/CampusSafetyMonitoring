@@ -1,5 +1,5 @@
 from utils import load_model
-from config import CONF
+from baseline_config import CONF
 import os
 
 def predict(source, save=True):
