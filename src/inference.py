@@ -1,5 +1,5 @@
 from utils import load_model
-from baseline_config import CONF
+from config import CONF
 import os
 
 def predict(source, save=True):
@@ -18,7 +18,7 @@ def predict_single_image(image_path):
     if not os.path.exists(image_path):
         raise FileNotFoundError(f"Image not found: {image_path}")
 
-    model = load_model()
+    model = load_model("runs/experiments/final_combined/weights/best.pt")
 
     results = model.predict(
         source=image_path,

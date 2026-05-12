@@ -1,0 +1,61 @@
+CATEGORY_C - TEST
+P: 0.8164
+R: 0.9269
+mAP50: 0.8831
+mAP50-95: 0.6790
+
+===== PER-CLASS METRICS =====
+
+Class: Fire_Extinguisher
+  Precision: 0.6589
+  Recall:    0.9159
+  mAP50:     0.8585
+  mAP50-95:  0.6967
+
+Class: Fire_Blanket
+  Precision: 0.7693
+  Recall:    0.8894
+  mAP50:     0.7865
+  mAP50-95:  0.6622
+
+Class: Alarm_Activator
+  Precision: 0.8446
+  Recall:    0.9524
+  mAP50:     0.9206
+  mAP50-95:  0.6116
+
+Class: Alarms
+  Precision: 0.5947
+  Recall:    0.8295
+  mAP50:     0.6269
+  mAP50-95:  0.4900
+
+Class: Smoke_Detector
+  Precision: 0.9158
+  Recall:    0.9815
+  mAP50:     0.9746
+  mAP50-95:  0.8359
+
+Class: AED
+  Precision: 0.9256
+  Recall:    0.9200
+  mAP50:     0.9457
+  mAP50-95:  0.7278
+
+Class: Fire_Exit
+  Precision: 0.8861
+  Recall:    0.9512
+  mAP50:     0.9625
+  mAP50-95:  0.6385
+
+Class: Wet_Floor_Sign
+  Precision: 0.9941
+  Recall:    1.0000
+  mAP50:     0.9950
+  mAP50-95:  0.8057
+
+Class: Safety_Signs
+  Precision: 0.7581
+  Recall:    0.9020
+  mAP50:     0.8782
+  mAP50-95:  0.6428

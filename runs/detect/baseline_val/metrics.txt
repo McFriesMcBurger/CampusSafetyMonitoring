@@ -1,0 +1,61 @@
+BASELINE - VAL
+P: 0.8523
+R: 0.8760
+mAP50: 0.9013
+mAP50-95: 0.6901
+
+===== PER-CLASS METRICS =====
+
+Class: Fire_Extinguisher
+  Precision: 0.7180
+  Recall:    0.8355
+  mAP50:     0.8871
+  mAP50-95:  0.7017
+
+Class: Fire_Blanket
+  Precision: 0.8562
+  Recall:    0.9159
+  mAP50:     0.9554
+  mAP50-95:  0.7454
+
+Class: Alarm_Activator
+  Precision: 0.8590
+  Recall:    0.8260
+  mAP50:     0.8241
+  mAP50-95:  0.5857
+
+Class: Alarms
+  Precision: 0.6827
+  Recall:    0.6768
+  mAP50:     0.7390
+  mAP50-95:  0.5495
+
+Class: Smoke_Detector
+  Precision: 0.9324
+  Recall:    0.9495
+  mAP50:     0.9774
+  mAP50-95:  0.8468
+
+Class: AED
+  Precision: 0.9467
+  Recall:    0.9385
+  mAP50:     0.9620
+  mAP50-95:  0.7422
+
+Class: Fire_Exit
+  Precision: 0.8870
+  Recall:    0.8944
+  mAP50:     0.8980
+  mAP50-95:  0.6092
+
+Class: Wet_Floor_Sign
+  Precision: 0.9775
+  Recall:    0.9942
+  mAP50:     0.9858
+  mAP50-95:  0.8212
+
+Class: Safety_Signs
+  Precision: 0.8112
+  Recall:    0.8531
+  mAP50:     0.8827
+  mAP50-95:  0.6094

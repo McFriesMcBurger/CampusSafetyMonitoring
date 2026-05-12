@@ -1,8 +1,8 @@
 import os
 from ultralytics import YOLO
-from baseline_config import *
+from config import *
 
-def load_model(path=MODEL_PATH):
+def load_model(path):
     return YOLO(path)
 
 def check_dataset_structure(base_path="datasets"):

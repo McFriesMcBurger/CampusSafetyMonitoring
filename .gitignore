@@ -1,7 +1,4 @@
 datasets/images
-runs/
-evaluation/
-*.pt
 *.cache
 *.npy
 __pycache__/
