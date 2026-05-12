@@ -12,12 +12,14 @@ The repository includes code for training, evaluation, and inference, along with
 
 The model is trained on the following categories:
 
-* fire_extinguisher
-* fire_blanket
-* alarm_activator
-* alarm_siren
-* white_domes
-* defibrillator
+* Fire_Extinguisher
+* Fire_Blanket
+* Alarm_Activator
+* Alarm_Siren
+* White_Domes
+* AED
+* Fire_Exit
+* Wet_Floor_Sign
 * safety_sign
 
 ---
