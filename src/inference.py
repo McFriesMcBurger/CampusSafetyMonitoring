@@ -18,7 +18,7 @@ def predict_single_image(image_path):
     if not os.path.exists(image_path):
         raise FileNotFoundError(f"Image not found: {image_path}")
 
-    model = load_model("runs/experiments/final_combined/weights/best.pt")
+    model = load_model("models/final.pt")
 
     results = model.predict(
         source=image_path,
