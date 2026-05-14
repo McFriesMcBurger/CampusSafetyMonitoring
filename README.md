@@ -15,12 +15,12 @@ The model is trained on the following categories:
 * Fire_Extinguisher
 * Fire_Blanket
 * Alarm_Activator
-* Alarm_Siren
-* White_Domes
+* Alarms
+* Smoke_Detector
 * AED
 * Fire_Exit
 * Wet_Floor_Sign
-* safety_sign
+* Safety_Signs
 
 ---
 
@@ -44,6 +44,7 @@ CampusSafetyMonitoring/
 │   ├── test.py
 │   ├── utils.py
 │   └── config.py
+│   └── run_experiments.py
 │
 ├── demo/              # optional: images for testing/demo
 ├── runs/              # generated during training
@@ -70,7 +71,7 @@ print(torch.cuda.is_available())
 ```
 
 Utilize the link below to download the ZIP file containing the images dataset:
-https://drive.google.com/file/d/1iqXGUf96_7K3h79pqZloIQ7RdyPr5BPn/view
+https://drive.google.com/drive/folders/1M9X8GfTqeieVonsRrJKasLKXcEoJcLVP?usp=sharing
 
 Insert the **images** folder into the same directory as the **labels** folder.
 
@@ -115,6 +116,20 @@ This computes standard detection metrics and saves outputs to the `evaluation/` 
 * mAP@0.5 and mAP@0.5:0.95
 * Confusion matrix
 * Precision–recall and F1 curves
+
+For experimentation with the three provided categories in config.py, run:
+
+```
+python src/run_experiments.py
+```
+
+This initiates the experimentation pipeline, wherein the the model will be trained under the baseline configuration, three experimental configurations:
+
+* Regularization and early stopping strategies
+* Data augmentation techniques
+* Training pipeline optimization
+
+and then a final, combined model implementing all experimental changes.
 
 ---
 
